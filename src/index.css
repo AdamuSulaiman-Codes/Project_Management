@@ -1,0 +1,265 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ProjectList Header */
+.p-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #393e46;
+    color: #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Spacing below the header */
+}
+
+.p-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.p-header button {
+    background-color: #f96d00;
+    color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.p-header button:hover {
+    background-color: #e65a00;
+}
+
+/* Form Styles */
+form {
+    margin: 15px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #f96d00;
+    color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e65a00;
+}
+
+/* Results Section */
+.results {
+    margin-top: 20px;
+}
+
+.result-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.result-container p {
+    margin: 0;
+    color: #222831;
+}
+
+.result-container button {
+    background-color: #e65a00;
+    color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.result-container button:hover {
+    background-color: #c84d00;
+}
+
+/* No Tasks Available */
+.no-tasks {
+    color: #666;
+    font-style: italic;
+}
+
+/* Main Content Area */
+.main-content {
+    margin-left: 200px; /* Matches the sidebar width */
+    padding: 20px;
+    width: calc(100% - 200px); /* Adjusts width based on sidebar */
+    overflow-y: auto;
+}
+
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 300px;
+    align-items: center;
+   
+}
+
+.side-bar button {
+    background-color: #f96d00;
+    color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+.no-project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.no-project-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.no-project-text {
+    font-size: 1.5rem;
+    color: #222831;
+    margin-bottom: 20px;
+}
+
+.no-project-button {
+    background-color: #f96d00;
+    color: #f2f2f2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.no-project-button:hover {
+    background-color: #222831;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.new-project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.label {
+    font-size: 1rem;
+    color: #222831;
+    margin-bottom: 5px;
+}
+
+.input-field,
+.input-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.input-textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.create-project-button {
+    align-self: flex-end;
+    background-color: #f96d00;
+    color: #f2f2f2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.create-project-button:hover {
+    background-color: #222831;
+}
+
+
+.btns{
+    display: flex;
+    gap: 10rem;
+    border: none;
+    
+}

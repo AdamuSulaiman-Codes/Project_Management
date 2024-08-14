@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ProjectList from "./components/ProjectList";
 import SideBar from "./components/SideBar";
 import NoProject from "./components/NoProject";
 import NewProject from "./components/NewProject";

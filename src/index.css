@@ -1,19 +1,93 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #222831;
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+}
 
+/* Page Container */
+.page {
+    display: flex;
+    width: 100%;
+    height: 100vh; /* Full height of the viewport */
+}
 
+/* Sidebar Styles */
+.side-bar {
+    background-color: #393e46;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
 
+.side-bar h1 {
+    color: #f2f2f2;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
 
+.side-bar button {
+    background-color: #f96d00;
+    color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
 
+.side-bar button:hover {
+    background-color: #e65a00;
+}
 
+.side-bar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
 
+.side-bar li {
+    background-color: #222831;
+    color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
+.side-bar li:hover {
+    background-color: #f96d00;
+}
 
+/* Main Content Styles */
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #ffffff; /* Optional: to distinguish the main content */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
 
+/* Centering Content */
+.main-content > * {
+    max-width: 1200px; /* Optional: adjust to control max width of content */
+    width: 100%;
+}
 
-
-
-
-
-/* ProjectList Header */
+/* Selected Project Styles */
 .p-header {
     display: flex;
     justify-content: space-between;
@@ -22,7 +96,7 @@
     background-color: #393e46;
     color: #f2f2f2;
     border-radius: 5px;
-    margin-bottom: 20px; /* Spacing below the header */
+    margin-bottom: 20px;
 }
 
 .p-header h2 {
@@ -116,42 +190,7 @@ form button:hover {
     font-style: italic;
 }
 
-/* Main Content Area */
-.main-content {
-    margin-left: 200px; /* Matches the sidebar width */
-    padding: 20px;
-    width: calc(100% - 200px); /* Adjusts width based on sidebar */
-    overflow-y: auto;
-}
-
-
-.side-bar{
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-    width: 300px;
-    align-items: center;
-   
-}
-
-.side-bar button {
-    background-color: #f96d00;
-    color: #f2f2f2;
-    border: none;
-    border-radius: 5px;
-    padding: 8px 15px;
-    cursor: pointer;
-    width: 200px;
-}
-
-
-
-
-
-
-
-
-
+/* No Project Styles */
 .no-project-container {
     display: flex;
     flex-direction: column;
@@ -189,19 +228,7 @@ form button:hover {
     background-color: #222831;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* New Project Styles */
 .new-project-container {
     display: flex;
     flex-direction: column;
@@ -256,10 +283,8 @@ form button:hover {
     background-color: #222831;
 }
 
-
-.btns{
+.btns {
     display: flex;
-    gap: 10rem;
+    gap: 1rem;
     border: none;
-    
 }
